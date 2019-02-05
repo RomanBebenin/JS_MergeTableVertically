@@ -2,7 +2,7 @@ function mergeCellsVert(table_id)
 // function formats a table in such a way that all the empty cells in a particular column are merged 
 // with the the most recent non-empty cell 
 // input: id of the table for which cells should be merged vertically
-// output: None
+// output: None, the table just should be formatted correspondingly
 // Exception handling: None
 {
 var myTable = document.getElementById(table_id);
