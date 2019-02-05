@@ -1,6 +1,6 @@
 function mergeCellsVert(table_id)
 //function deletes all the emppty cells and spans 
-// non-empty ones correspondingly
+// non-empty ones correspondingly for each cell
 {
 var myTable = document.getElementById(table_id);
 var column_num = myTable.rows[0].cells.length
